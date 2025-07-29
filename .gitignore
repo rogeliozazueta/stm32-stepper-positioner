@@ -1,0 +1,36 @@
+# STM32CubeIDE project files
+*.launch
+*.cproject
+*.project
+
+# Build output folders
+/Debug/
+/Release/
+/build/
+
+# Object files, binaries, libraries
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.axf
+*.dmp
+
+# Backup and temporary files
+*~
+*.bak
+*.tmp
+*.swp
+
+# STM32CubeMX files
+/*.ioc.bak
+
+# VS Code workspace settings (if used)
+.vscode/
+
+# Mac OS files
+.DS_Store
+
