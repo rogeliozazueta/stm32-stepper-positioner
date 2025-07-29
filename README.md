@@ -1,14 +1,25 @@
-# STM32 Stepper Positioner
+# STM32 Stepper Positioner 🎯
 
-Proyecto para controlar un motor paso a paso 28BYJ-48 con STM32 y ULN2003AN,
-usando un potenciómetro para definir la posición y una interfaz con ESP32.
+Proyecto bare-metal en C usando un STM32F103C8T6 (Blue Pill), un motor paso a paso 28BYJ-48 con ULN2003 y un potenciómetro.
 
-## Estado
-En desarrollo.
+📌 **Objetivo**: controlar la posición del motor proporcionalmente a la lectura del potenciómetro.
 
-## Objetivos
-- Leer el potenciómetro con ADC.
-- Controlar motor paso a paso proporcionalmente.
-- Implementar comunicación UART con ESP32.
-- Crear interfaz gráfica en ESP32.
+## 🛠 Hardware
+- STM32F103C8T6
+- Motor paso a paso 28BYJ-48
+- ULN2003AN (driver)
+- Potenciómetro 10kΩ
+- Fuente de 5V
 
+## ⚙️ Funcionalidad
+- El usuario gira el potenciómetro
+- El motor se posiciona proporcionalmente
+- Controlado por software bare-metal en C
+
+## 🚀 Extensiones planeadas
+- Mostrar posición con ESP32 como pantalla serial remota
+- Agregar control por botones
+- Ajuste de velocidad desde otro potenciómetro
+- Visualización por UART
+
+## 📸 Imágenes / video (pendiente)
